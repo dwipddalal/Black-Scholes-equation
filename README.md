@@ -11,6 +11,8 @@ $t$ is the time to expiration
 $S$ is the price of the underlying asset
 $r$ is the risk-free interest rate
 $\sigma$ is the volatility of the underlying asset
+
+## Background
 The Black Scholes equation can be used to price options on stocks, futures, and other financial instruments. It is based on the assumption that the underlying asset follows a geometric Brownian motion process, and that there are no dividends or other cash flows during the life of the option.
 
 To solve the Black Scholes equation, we need to specify boundary conditions that describe the value of the derivative at expiration. For a call option, the boundary condition is given by:
